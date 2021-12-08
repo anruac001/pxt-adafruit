@@ -11,7 +11,7 @@ input.buttonA.onEvent(ButtonEvent.Click, function () {
         let j = 0;
         while (j < 11) {
             if (j < 10) {
-                light.setPixelColor(j, 0xffff00);
+                light.setPixelColor(j, 0xffffff);
                 pause(30);
             }
             if (j > 0) {
